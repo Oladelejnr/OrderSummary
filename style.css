@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "red hat display";
+    background-color:hsl(225, 100%, 94%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.container {
+    width: 375px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 16px;
+}
+.container img {
+    margin: auto;
+    justify-content: left;
+    align-items: left;
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+.exp {
+    color: hsl(223, 47%, 23%);
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.divA {
+    padding: 30px;
+}
+h3 {
+    color: hsl(223, 47%, 23%);
+    font-size: medium;
+    padding-bottom: 12px;
+
+}
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.change {
+    text-decoration: underline;
+    color:  hsl(245, 75%, 52%)
+}
+.border {
+    border: 1px solid;
+    border-radius: 6px;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+h5 {
+    color:hsl(224, 23%, 55%);
+    text-align: center;
+    padding-top: 12px;
+}
